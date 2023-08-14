@@ -25,15 +25,13 @@ const Feed = () => {
 
         </Typography>
       </Box>
-      <Box sx={{height:"90vh",flex:2,overflowY:"auto"}} p={1} >
+      <Box  p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }} >
       <Typography variant='h4' fontWeight={'bold'} sx={{color:"white",mb:2}}> 
       {selectedcetagry} <span style={{color:"#f31503"}}>Video</span>
       </Typography>
       <Videos vides={videos}/>
       </Box>
-      { console.log(videos)
-
-}    </Stack>
+        </Stack>
   )
 }
 

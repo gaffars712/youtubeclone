@@ -6,7 +6,7 @@ import Channelcard from './Channelcard';
 const Videos = ( {vides} ) => {
   console.log(vides)
   return (
-    <Stack   justifyContent="start" alignItems="start" gap={3}>
+    <Stack direction='row' flexWrap={'wrap'}   justifyContent="start" alignItems="start" gap={6}>
       {vides.map((item,idx) => {
         return(     
            <Box key={idx}>
