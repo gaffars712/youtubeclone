@@ -18,7 +18,7 @@ function App() {
       <Route exact path='/' element={<Feed/>}/>
       <Route exact path='/video/:id' element={<Videodetails/>}/>
       <Route exact path='/channel/:id' element={<Channeldetails/>}/>
-      <Route exact path='/serchfeed/:id' element={<Serchfeed/>}/>
+      <Route exact path='/search/:searchtem' element={<Serchfeed/>}/>
 
 
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Typography,Card, CardContent,CardMedia } from '@mui/material';
-import { CheckCircle, Padding, SnippetFolder } from '@mui/icons-material';
+import { CheckCircle, } from '@mui/icons-material';
 import { demoThumbnailUrl,demoVideoUrl,demoChannelTitle,demoChannelUrl,demoVideoTitle } from './Constants';
 
-const Videocard = ({video: {id: {videoId},snippet}}) => {
+const Videocard = ({video:{id:{videoId},snippet}}) => {
   console.log(videoId,snippet)
   return (
     <Card sx={{ width: { xs: '100%', sm: '358px', md: "320px", }, boxShadow: "none", borderRadius: 0 }}>
