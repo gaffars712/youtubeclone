@@ -6,12 +6,10 @@ import Feed from './compunent/Feed';
 import Videodetails from './compunent/Videodetails';
 import Channeldetails from './compunent/Channeldetails';
 import Serchfeed from './compunent/Serchfeed';
-import { HelmetProvider } from 'react-helmet-async';
 
 
 function App() {
   return (
-    <HelmetProvider>
       <BrowserRouter>
         <Box sx={{ background: "#000" }}>
           <Navbar />
@@ -29,7 +27,6 @@ function App() {
           </Routes>
         </Box>
       </BrowserRouter>
-    </HelmetProvider>
   )
 }
 
